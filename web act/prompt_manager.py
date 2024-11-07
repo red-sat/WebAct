@@ -1,5 +1,3 @@
-# prompt_manager.py
-
 class PromptManager:
     """
     Manages prompt generation and updates, including initializing prompt templates
