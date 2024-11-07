@@ -1,1 +1,2 @@
-nfidsnjkfdnsk
+def test():
+    return True
