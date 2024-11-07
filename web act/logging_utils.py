@@ -7,7 +7,7 @@ def setup_logger(log_dir, filename="agent.log", redirect_to_dev_log=False):
     and managing output formatting. Allows logs to be redirected to a development
     log if specified.
 
-    Args:
+    Args :
         log_dir (str): The directory path where log files will be saved.
         filename (str): The name of the main log file. Defaults to 'agent.log'.
         redirect_to_dev_log (bool): If True, logs are redirected to 'dev.log' in
