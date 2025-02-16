@@ -7,7 +7,7 @@ WebAct is a sophisticated framework designed for autonomous web navigation tasks
 
 The repository is organized into modular components to support various aspects of web interaction and AI integration:
 
-- **Core Agent Implementation**:  
+- **Agent Implementation**:  
   `agent.py` contains the primary `WebActAgent` class that orchestrates the entire navigation process, handling action prediction, execution, and state management. The agent integrates vision and text processing capabilities to interact with web elements intelligently.
 
 - **Utility scripts**:  
