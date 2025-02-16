@@ -57,7 +57,7 @@ from webact.agent import WebActAgent
 
 async def run_agent():
     agent = WebActAgent(
-        model="gemini-2.0-flash-exp",
+        model="gemini-1.5-flash",    # or gemini-2.0-flash-exp
         default_task="Find latest AI research papers",
         default_website="https://arxiv.org",
         grounding_strategy="text_choice_som",
