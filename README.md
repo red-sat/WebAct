@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/527bad0b-c18a-454f-9dfa-82fe92ffbbbf)
 # WebAct: Web Navigation Agent Action tool 
 
 WebAct is a sophisticated framework designed for autonomous web navigation tasks using AI-driven agents. The system combines browser automation with Large language model (LLM) integration like Gemini 2.0, GPT-4o or LLaVA to perform complex web interactions based on natural language instructions, or prompts to be short. This framework is particularly suited for automating multi-step web tasks, crawling, and intelligent interaction with web elements.
@@ -22,22 +21,8 @@ The repository is organized into modular components to support various aspects o
 
 ## How it works
 
-```mermaid
+![image](https://github.com/user-attachments/assets/8d75ce2e-396c-42f0-873c-fc98fab3b80b)
 
-flowchart TB
-    A([User Input<br/>"Find iPhone 15 price"]) --> B([World Model: LLM])
-    B --> C([Browser Initialization:<br/>Playwright])
-    C --> D([Element Detection:<br/>Scanning Browser])
-
-    D -->|Yes| E([LLM Decision-Making<br/>Screenshot + Task Prompt =><br/>Output: Action + Target])
-    D -->|No| X([No Element Detected])
-
-    E --> F([Action Model:<br/>Execute Action (e.g. Click)])
-    F --> G{Termination Check:<br/>Prices Found?}
-
-    G -->|Yes| H([SAY: "$1099"])
-    G -->|No| X
-```
 
 ## Key Features
 
