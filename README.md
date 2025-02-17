@@ -21,7 +21,7 @@ The repository is organized into modular components to support various aspects o
 
 ## How it works
 
-![image](https://github.com/user-attachments/assets/8d75ce2e-396c-42f0-873c-fc98fab3b80b)
+![image](https://github.com/user-attachments/assets/88735681-7b2b-4f79-b72e-d59223cb5a5e)
 
 
 ## Key Features
