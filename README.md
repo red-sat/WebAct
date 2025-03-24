@@ -2,6 +2,39 @@
 
 WebAct is a sophisticated framework designed for autonomous web navigation tasks using AI-driven agents. The system combines browser automation with Large language model (LLM) integration like Gemini 2.0, GPT-4o or LLaVA to perform complex web interactions based on natural language instructions, or prompts to be short. This framework is particularly suited for automating multi-step web tasks, crawling, and intelligent interaction with web elements.
 
+```mermaid
+gantt
+    title WebAct: Web Navigation Agent Development Timeline
+    dateFormat YYYY-MM-DD
+    
+    section Core Components
+    Agent Implementation (agent.py)        :a1, 2025-04-01, 21d
+    Browser Helper Integration             :a2, after a1, 14d
+    Crawler Helper Development            :a3, after a2, 14d
+    
+    section Utility Scripts
+    Prompt Engineering Components          :b1, 2025-04-15, 14d
+    Format Prompt Development             :b2, after b1, 10d
+    Model Inference Infrastructure        :b3, after b2, 14d
+    
+    section AI Integration
+    GPT Model Support                     :c1, 2025-05-20, 14d
+    Gemini 2.0 Integration               :c2, after c1, 10d
+    LLaVA Support Implementation          :c3, after c2, 14d
+    
+    section Testing & Optimization
+    Action Prediction Testing             :d1, after a3, 10d
+    Visual Grounding Strategy Testing     :d2, after d1, 7d
+    Failure Recovery Mechanisms           :d3, after d2, 10d
+    
+    section Documentation & Release
+    Repository Structure Setup           :e1, 2025-04-01, 7d
+    Requirements Documentation           :e2, after e1, 5d
+    Quick Test Implementation            :e3, after c3, 7d
+    Final Documentation                  :e4, after d3, 10d
+    Initial Release                      :milestone, after e4, 0d
+```
+
 ## Project Structure
 
 The repository is organized into modular components to support various aspects of web interaction and AI integration:
